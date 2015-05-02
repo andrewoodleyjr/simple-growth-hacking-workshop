@@ -43,13 +43,20 @@ For this we will assume the user base is mainly on Instagram and we will look th
 * [ ] use case 2
 * [ ] use case 3
 
-
 We now understand the type of user we are appealing to. Our goal is to get them to sign up for the beta version but to do that we need the following: 
 
+* Set Up Website
+* Create Sign Up Form
 * A message to say
-* Website
-* Sign Up Page
 
-##Step 2 - Set Up Page
+##Step 2 - Set Up Website
+We will use Github Pages to set up the website. (optional)
+If you have a Website that you can change feel free to use that instead and skip to step 3
+Otherwise continue. 
 
-hello
+1. Clone this respository on your computer 
+2. Follow these directions to set up your [Github page](https://pages.github.com/)
+3. Copy the files from this respository and put them into your Github Pages Respository.
+
+We now have a website up and running. 
+

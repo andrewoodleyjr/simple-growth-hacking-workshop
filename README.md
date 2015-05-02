@@ -59,4 +59,53 @@ Otherwise continue.
 3. Copy the files from this respository and put them into your Github Pages Respository.
 
 We now have a website up and running. 
+Lets create a sign up form using Typeform. 
 
+##Step 3 - Set up Typeform
+Type form is a nice form generator. It removes the hassle of creating a sign up form quick and easy. 
+
+1. Sign Up for [Typeform](http://typeform.com)
+2. Create a type form 
+3. Add the form link to the website
+
+######We have both the website and the Typeform. Lets add some tracking and A/B testing. Then we can move on to sending out messages
+
+##Step 4 - Google Analytics
+Google Analytics is a great way to view how your site is being used, performance, and demographics. Their are many other tools such as KissMetrics and my now favorite Heap but to keep things simple lets use a standard tool. 
+
+####Add to Website
+1. Sign Up for [Google Analytics](http://www.google.com/analytics)
+2. Create a new web account
+3. Add the link to your site and push the changes to GitHub
+
+####Add to Typeform
+1. Create a new property under the same web account
+2. Add the ID to the typeform 
+
+
+
+##Step 5 - Optimizely
+Here we can add multiple versions of our site. With this we can change the value proposition, the look and feel of the site. 
+
+1. Create an Optimizely account. 
+2. Start a new project
+3. Add at least 3 different variations to your site
+4. Click the Launch button
+5. Add the code snippet to your website and push the changes. 
+
+######We now have a site we are A/B testing and our analytics are installed as well. 
+
+##Step 6 - Message
+Here we will use Instagress to send out messages for us using Instagram Hashtags, comments and likes. 
+
+1. Sign up for [Instagress](http://instagress.com)
+2. Create a list of hashtags to target users with
+3. Create the multiple messages you'd like to send to users.
+4. Click start process and let it run. 
+
+##Step 7 - Learn & Optimize
+So you launched a campaign to gain beta users. Things are moving by itself while you focus on developing but...are things going smoothly. 
+
+Maybe their are somethings you need to optimize. 
+
+1. Lets look into optimizely to see how we can do it. 

@@ -7,9 +7,13 @@ Growth hacking is the process of gaining users, keeping them and spreading your 
 
 ##Goals
 Through this workshop we hope to accomplish the following
+
 1. Set up A/B Tests and Analytics.
+
 2. Identify tools to gain users.
+
 3. Use a simple bot to automate the process of gaining users.
+
 4. Gain a solid overview of what growth hacking is.
 
 

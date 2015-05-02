@@ -2,7 +2,9 @@
 
 
 ##Goals
-
+1. Understand Growth Hacking
+2. Set up a process to gain users.
+3. 
 
 
 ##Process

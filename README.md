@@ -6,8 +6,11 @@ We will build a simple small way to build a user base before or after product la
 Growth hacking is the process of gaining users, keeping them and spreading your app through other users. 
 
 ##Goals
-1. Understand Growth Hacking
-2. Set up a process to gain users before or after app release
+Through this workshop we hope to accomplish the following
+1. Set up A/B Tests and Analytics.
+2. Identify tools to gain users.
+3. Use a simple bot to automate the process of gaining users.
+4. Gain a solid overview of what growth hacking is.
 
 
 ##Process

@@ -1,0 +1,450 @@
+body {
+  padding-top: 126px;
+  background-color: black;
+  background-image: url('../images/sneaker-18232-1920x1080 (1).jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  font-family:'Roboto Condensed', sans-serif;
+  color: white;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+}
+h1 {
+  margin: 10px 0px;
+  font-family:'Roboto Condensed', sans-serif;
+  color: #2d3338;
+  font-size: 69px;
+  line-height: 54px;
+  font-style: normal;
+  font-weight: 700;
+  text-shadow: none;
+}
+h2 {
+  margin-right: 0px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: 400;
+  text-shadow: none;
+}
+h3 {
+  margin: 5px 0px;
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: 400;
+  text-shadow: none;
+}
+h4 {
+  margin: 10px 0px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+}
+h5 {
+  margin: 10px 0px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+}
+h6 {
+  margin: 10px 0px;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 700;
+}
+p {
+  margin-bottom: 5px;
+  font-size: 16px;
+  line-height: 23px;
+  font-weight: 300;
+  letter-spacing: 0px;
+  text-shadow: none;
+}
+.button {
+  display: block;
+  width: 100%;
+  height: 54px;
+  margin-left: -1px;
+  padding: 4px 29px;
+  border: 3px solid white;
+  background-color: white;
+  -webkit-transition: background-color 300ms ease, color 300ms ease;
+  -o-transition: background-color 300ms ease, color 300ms ease;
+  transition: background-color 300ms ease, color 300ms ease;
+  color: black;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.button:hover {
+  background-color: white;
+  color: black;
+}
+.subtitle {
+  padding-bottom: 67px;
+  font-family:'Roboto Condensed', sans-serif;
+  font-size: 31px;
+  line-height: 35px;
+  font-weight: 400;
+  text-shadow: none;
+}
+.field {
+  height: 54px;
+  margin-bottom: 19px;
+  padding-right: 20px;
+  padding-left: 20px;
+  border: 0px solid black;
+  -webkit-transition: box-shadow 150ms ease;
+  -o-transition: box-shadow 150ms ease;
+  transition: box-shadow 150ms ease;
+  color: #262c46;
+  font-size: 16px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.field:focus {
+  box-shadow: #00caf2 0px 0px 0px 2px inset;
+}
+.sign-up-form {
+  display: block;
+  width: 415px;
+  margin: 35px auto 66px;
+}
+.social-widget {
+  width: 100px;
+  float: left;
+  -webkit-transition: opacity 300ms ease;
+  -o-transition: opacity 300ms ease;
+  transition: opacity 300ms ease;
+}
+.social-widget.full-opacity {
+  opacity: 1;
+}
+.social-widget-wrapper {
+  display: block;
+  width: 223px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 20px;
+}
+.social-widget-wrapper.thank-you {
+  display: block;
+  width: 216px;
+  margin-top: 13px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 16px;
+}
+.success-message {
+  padding: 20px;
+  border-radius: 2px;
+  background-color: #737373;
+  -webkit-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+.spread-word {
+  margin-top: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 10px;
+  line-height: 16px;
+  font-weight: 400;
+  letter-spacing: 0px;
+  text-transform: uppercase;
+  text-shadow: none;
+}
+.error-message {
+  padding-bottom: 5px;
+  border-radius: 2px;
+  background-color: #5c3245;
+}
+.content-wrapper {
+  display: inline-block;
+  width: 60%;
+}
+.header-section {
+  height: 100%;
+  padding-top: 104px;
+  background-color: #e0ddd7;
+  text-align: center;
+}
+.footer-section {
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  margin-top: 0px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: rgba(0, 0, 0, 0.18);
+  color: #7e7c87;
+}
+.copyright {
+  color: rgba(255, 255, 255, 0.52);
+  text-align: left;
+}
+.bars-wrapper {
+  height: 7px;
+  background-color: #1abc9c;
+}
+.bar {
+  width: 14.285%;
+  height: 7px;
+  float: left;
+  background-color: #1abc9c;
+}
+.bar._2 {
+  background-color: #f2ca27;
+}
+.bar._3 {
+  background-color: #e67e22;
+}
+.bar._4 {
+  background-color: #16a085;
+}
+.bar._5 {
+  background-color: #2980b9;
+}
+.bar._6 {
+  background-color: #e74c3c;
+}
+.bar._7 {
+  background-color: #a366bc;
+}
+.container {
+  padding-right: 127px;
+  padding-left: 127px;
+}
+.image-crop {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  height: 260px;
+}
+.social-section {
+  padding-top: 58px;
+  padding-bottom: 58px;
+  text-align: center;
+}
+.share-btn {
+  display: inline-block;
+  width: 61px;
+  margin-right: 14px;
+  margin-left: 14px;
+}
+.share-wrapper {
+  margin-top: 32px;
+}
+.refer {
+  color: rgba(255, 255, 255, 0.59);
+}
+.align-right {
+  text-align: right;
+}
+.social-btn {
+  margin-left: 17px;
+  opacity: 0.44;
+  -webkit-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+.social-btn:hover {
+  opacity: 1;
+}
+.logo {
+  display: inline-block;
+  margin-right: auto;
+  margin-bottom: 19px;
+  margin-left: auto;
+  padding: 21px;
+  border: 8px solid white;
+  color: white;
+  font-weight: 700;
+  letter-spacing: 8px;
+  text-shadow: none;
+}
+.about {
+  font-family:'Roboto Condensed', sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.join {
+  display: block;
+  width: 50%;
+  margin-top: -12px;
+  margin-bottom: 15px;
+  margin-left: 0px;
+  padding-left: 0px;
+  float: left;
+  font-size: 19px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  text-shadow: none;
+}
+.beta-line {
+  width: 25%;
+  height: 1px;
+  margin-right: 0px;
+  padding-right: 1px;
+  float: left;
+  background-color: rgba(255, 255, 255, 0.36);
+}
+@media (max-width: 991px) {
+  .subtitle {
+    font-size: 29px;
+    text-shadow: none;
+  }
+  .content-wrapper {
+    width: 81%;
+  }
+  .container {
+    padding-right: 57px;
+    padding-left: 57px;
+  }
+  .social-btn {
+    -webkit-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
+  }
+  .social-btn:hover {
+    opacity: 0.8;
+  }
+  .join {
+    width: 50%;
+    font-size: 21px;
+    text-shadow: none;
+  }
+  .beta-line {
+    width: 25%;
+  }
+}
+@media (max-width: 767px) {
+  body {
+    padding-top: 65px;
+  }
+  .subtitle {
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-bottom: 43px;
+    text-shadow: none;
+  }
+  .sign-up-form {
+    margin-bottom: 64px;
+  }
+  .content-wrapper {
+    width: 100%;
+    padding-right: 24px;
+    padding-left: 24px;
+  }
+  .header-section {
+    padding-top: 37px;
+  }
+  .footer-section {
+    position: static;
+    padding-top: 23px;
+    padding-bottom: 23px;
+    background-color: rgba(0, 0, 0, 0.49);
+  }
+  .container {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .social-section {
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
+  .logo {
+    text-shadow: none;
+  }
+  .join {
+    text-shadow: none;
+  }
+}
+@media (max-width: 479px) {
+  body {
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+  h2 {
+    font-size: 30px;
+    line-height: 31px;
+    text-shadow: none;
+  }
+  p {
+    font-size: 20px;
+    text-shadow: none;
+  }
+  .button {
+    width: 100%;
+    margin-left: 0px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+  }
+  .subtitle {
+    padding-bottom: 36px;
+    font-size: 22px;
+    line-height: 26px;
+    text-shadow: none;
+  }
+  .field {
+    width: 100%;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    text-align: center;
+  }
+  .sign-up-form {
+    width: 100%;
+    margin-top: 22px;
+  }
+  .social-widget {
+    width: 96px;
+  }
+  .social-widget-wrapper {
+    display: block;
+    width: 221px;
+    margin-right: auto;
+    margin-bottom: 15px;
+    margin-left: auto;
+  }
+  .copyright {
+    margin-bottom: 16px;
+    text-align: center;
+  }
+  .container {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .image-crop {
+    height: auto;
+    margin-bottom: 40px;
+  }
+  .social-section {
+    padding-right: 14px;
+    padding-left: 14px;
+  }
+  .align-right {
+    text-align: center;
+  }
+  .social-btn {
+    margin-right: 17px;
+  }
+  .logo {
+    font-size: 43px;
+    text-shadow: none;
+  }
+  .join {
+    width: 75%;
+    font-size: 19px;
+    line-height: 22px;
+    letter-spacing: 4px;
+    text-shadow: none;
+  }
+  .beta-line {
+    width: 12%;
+  }
+}
+

@@ -1,1 +1,147 @@
-Hello World 2
+<!DOCTYPE html>
+<!-- This site was created in Webflow. http://www.webflow.com-->
+<!-- Last Published: Sat Nov 15 2014 23:24:31 GMT+0000 (UTC) -->
+<html data-wf-site="5462fcbd0e1030ba0c03b5f8" data-wf-page="5462fcbd0e1030ba0c03b5fa">
+<head>
+  <meta charset="utf-8">
+  <title>shoes777</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="generator" content="Webflow">
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/webflow.css">
+  <link rel="stylesheet" type="text/css" href="css/shoes777.webflow.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  <script type="text/javascript" src="js/jquery.countdown.js"></script>
+  
+  <script>
+    WebFont.load({
+      google: {
+        families: ["Roboto Condensed:regular,700"]
+      }
+    });
+  </script>
+  
+  
+  <script type="text/javascript" src="js/modernizr.js"></script>
+  
+  <script>
+  $( document ).ready(function() {
+  window.setInterval(function(){
+  /// call your function here
+
+  	var currentdate = new Date(); 
+	var futureDate = new Date("5/4/2015 12:00:00"); 
+	//get the date difference in ticks 
+	var timeDiff = futureDate - currentdate; 
+	timeDiff = timeDiff / 1000; 
+	var days = Math.floor(timeDiff / 86400); 
+	var hours = Math.floor(timeDiff / 3600) % 24; 
+	if(hours < 10) 
+   		hours = "0" + hours; 
+	var minutes = Math.floor(timeDiff / 60) % 60; 
+   	if(minutes < 10) 
+      		minutes = "0" + minutes; 
+	var seconds = Math.floor(timeDiff % 60); 
+   		if(seconds < 10) 
+      	seconds = "0" + seconds;
+  
+  	
+    	console.log( "ready!" );
+    	var currentDate = new Date();
+    	if (days > 1){
+    	
+    	$("#countdownBtn").prop('value', days + ' days remaining');
+    	}else if(days == 1){
+    		$("#countdownBtn").prop('value', days + ' day remaining');
+    	}else{
+    	$("#countdownBtn").prop('value', hours + ':'+minutes+':'+seconds+'');	
+    	}
+    	//$('#countdownBtn').fadeIn(2000);
+    	
+    	
+    	$("#countdownBtn").each(function() {
+    if ($(this).css("visibility") == "hidden") {
+        // handle non visible state
+        $(this).hide().css("visibility", "visible").fadeIn("slow");
+    } else {
+        // handle visible state
+    }
+});
+    	
+    }, 1000);
+    
+    
+    	var theurl = document.URL;
+	var final = theurl.substr(theurl.lastIndexOf('/') + 1);
+	console.log(final);
+    $("#countdownBtn").click(function(){
+          window.location.href = 'https://kevin48.typeform.com/to/txAMVk?n='+final;
+      // do something
+      //alert( 'hello world' );
+
+    });
+    
+  });
+  
+	
+  </script>
+
+  <link rel="shortcut icon" type="image/x-icon" href="https://y7v4p6k4.ssl.hwcdn.net/placeholder/favicon.ico">
+  
+  
+</head>
+<body>
+  <div class="w-container container">
+    <h1 class="logo">RETROS</h1>
+    <p class="subtitle">Discover classic and unique shoes.</p>
+    <div class="w-clearfix join-wrapper">
+      <div class="beta-line"></div>
+      <p class="join">Do you have a favorite shoe? Enter for a chance to win it every month</p>
+      <div class="beta-line"></div>
+    </div>
+    <div class="w-form sign-up-form">
+      <!--<form name="wf-form-signup-form" data-name="Signup Form" data-redirect="https://kevin48.typeform.com/to/txAMVk?name=xxxxx" method="post" id="form">-->
+        <input id="countdownBtn" class="w-button button" type="submit" value="" data-wait="Please wait..."  style="visibility: hidden;">
+        <div >Click the Button to Win</div>
+      <!-- </form> -->
+      <div class="w-form-done success-message">
+        <p>Thanks! You have been added to our beta list.&nbsp;</p>
+        <p class="spread-word">Help spread the word!</p>
+        <div class="w-clearfix social-widget-wrapper">
+          <div class="w-widget w-widget-twitter social-widget">
+            <iframe src="https://platform.twitter.com/widgets/tweet_button.html#url=http%3A%2F%2Fwebflow.com&amp;counturl=webflow.com&amp;text=Check%20out%20this%20site&amp;count=horizontal&amp;size=m&amp;dnt=true" scrolling="no" frameborder="0" allowtransparency="true" style="border: none; overflow: hidden; width: 110px; height: 20px;"></iframe>
+          </div>
+          <div class="w-widget w-widget-facebook social-widget">
+            <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Ffacebook.com%2Fwebflow&amp;layout=button_count&amp;locale=en_US&amp;action=like&amp;show_faces=false&amp;share=false" scrolling="no" frameborder="0" allowtransparency="true" style="border: none; overflow: hidden; width: 90px; height: 20px;"></iframe>
+          </div>
+        </div>
+      </div>
+      <div class="w-form-fail error-message">
+        <p>Oops! Something went wrong while submitting the form. :(</p>
+      </div>
+    </div>
+  </div>
+  <div class="footer-section">
+    <div class="w-container">
+      <div class="w-row">
+        <div class="w-col w-col-6 w-col-small-6">
+          <div class="copyright">© 2014 Retros Inc. All right reserved.&nbsp;</div>
+        </div>
+        <div class="w-col w-col-6 w-col-small-6 align-right">
+          <a class="w-inline-block social-btn" href="http://facebook.com/webflowapp"><img src="images/facebook-icon.svg" alt="52f1262295ce90e1760002cc_facebook-icon.svg">
+          </a>
+          <a class="w-inline-block social-btn" href="http://twitter.com/webflowapp"><img src="images/twitter-icon.svg" alt="52f126057711748d26000409_twitter-icon.svg">
+          </a>
+          <a class="w-inline-block social-btn" href="mailto:support@webflow.com"><img src="images/email-icon.svg" alt="52f126dcefbdd8df76000309_email-icon.svg">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script type="text/javascript" src="js/webflow.js"></script>
+  <!--[if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
+</body>
+</html>
+

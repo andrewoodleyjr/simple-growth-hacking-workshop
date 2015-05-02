@@ -103,9 +103,15 @@ Here we will use Instagress to send out messages for us using Instagram Hashtags
 3. Create the multiple messages you'd like to send to users.
 4. Click start process and let it run. 
 
-##Step 7 - Learn & Optimize
+##Step 7 - Learn & Fix 
 So you launched a campaign to gain beta users. Things are moving by itself while you focus on developing but...are things going smoothly. 
 
 Maybe their are somethings you need to optimize. 
 
 1. Lets look into optimizely to see how we can do it. 
+
+##Step 8 - Scale
+Upon nailing your process you can scale it. 
+
+Example: 
+Develop an Instagram bot for better algorithms to allow your connection to be more personal.

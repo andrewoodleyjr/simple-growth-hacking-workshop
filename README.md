@@ -1,10 +1,13 @@
 # growth-hacking-workshop
+The success of an app or a start up is in having an active user base. Therefore building is the easiest part of building a startup hard part is gaining and keeping users.
 
+We will build a simple small way to build a user base before or after product launch without using much code. You can follow along by using the assests in this project or using your own to growth hack a product, website or yourself. 
+
+Growth hacking is the process of gaining users, keeping them and spreading your app through other users. 
 
 ##Goals
 1. Understand Growth Hacking
-2. Set up a process to gain users.
-3. 
+2. Set up a process to gain users before or after app release
 
 
 ##Process

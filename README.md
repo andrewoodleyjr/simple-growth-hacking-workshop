@@ -43,9 +43,13 @@ For this we will assume the user base is mainly on Instagram and we will look th
 * [ ] use case 2
 * [ ] use case 3
 
-##Step 2 - Set Up Page
+
 We now understand the type of user we are appealing to. Our goal is to get them to sign up for the beta version but to do that we need the following: 
 
 * A message to say
 * Website
 * Sign Up Page
+
+##Step 2 - Set Up Page
+
+hello

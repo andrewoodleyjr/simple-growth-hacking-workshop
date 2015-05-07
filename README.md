@@ -5,6 +5,8 @@ We will build a simple small way to build a user base before or after product la
 
 Growth hacking is the process of gaining users, keeping them and spreading your app through other users. 
 
+[The PowerPoint Presentation](http://bit.ly/1H4nED7)
+
 ##Goals
 Through this workshop we hope to accomplish the following
 
